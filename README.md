@@ -1,4 +1,4 @@
-#JEdu
+# JEdu
 
 EECS395 Fall 2019
 Shiqing Gao, Yihe Guo, Melody Li
