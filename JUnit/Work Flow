@@ -1,0 +1,21 @@
+JUnit team initial workflow set up and useful command. 
+
+Find the folder where all plugin jar files located. 
+In Mac, it can be accessed by Go->(hold option key)Library->jEdit->jars. 
+In Windows, it's in (Jiaqi where is it in Windows?). 
+
+For JUnitPlugin, we already have the original source code and jar files, credit to 2001, 2002 Andre Kaplan, 2006 Denis Koryavov, and many other developers who contributed to JUnit plugin. 
+
+What we need to do, is to modify source code or UI components, and rebuild jar file. Then, drag the newly defined jar file to Jedit Library to test our result. 
+
+1. Modify source code or add any files in JUnitPlugin1. 
+
+2. Compile all modified files. 
+
+3. cd to JUnitPlugin1. Run jar cvf JUnitPlugin1.jar *
+
+4. JUnitPlugin1.jar will appear under JUnitPlugin1. Move it to Jedit Library (Delete the old JUnitPlugin.jar or JUnitPlugin1.jar). 
+
+5. Restart (or probably not need to) JEdit and reload JUnit plugin. 
+
+6. Your change may be verified. 
