@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+
+<!-- :tabSize=2:indentSize=2:noTabs=false: -->
+<!-- :folding=explicit:collapseFolds=1: -->
+
+<!--
+
+		 This is the standard build.xml file for building a jEdit plugin.
+
+		 The 'dist' target compiles the plugin, generates documentation, and creates
+		 the JAR file.  Before running the 'dist' target, you will need to choose
+		 whether to generate the documentation using one of these two targets:
+
+		 - 'docs-xsltproc': Creates documentation using the xsltproc tool from
+			 libxslt, available at http://xmlsoft.org/XSLT
+		 - 'docs-xalan': Creates documentation using the Xalan XSLT processor,
+			 available at http://xml.apache.org/
+
+		 The default processor is xsltproc. You can change the processor to Xalan by
+		 setting the 'docs-proc.target' property to xalan. This can be done on the
+		 command line by adding '-Ddocs-proc.target=xalan' or in any of the
+		 build.properties files that are imported. If you do not have any
+		 documentation, set the 'build-docs.not-required' property to any value and
+		 the 'docs' target will be skipped.
+
+		 To use this template for building your own plugin, make these changes:
+
+		 - Change 'name' property for the <project> to the name of your plugin
+		 - Change definition of 'jedit.install.dir' to point to the directory
+			 containing jedit.jar
+		 - If necessary, add any dependencies to the 'project.class.path' definition
+		 - If necessary, change the list of files in the 'dist' target
+
+		 All properties specified in this build.xml can be overridden by properties
+		 file in the following locations:
+
+		 - ${base.dir}/build.properties : Specify properties that are to affect this
+			 project only.
+		 - ../build.properties : If building from CVS, this file comes in handy
+			 because it allows you to specify properties that affect all plugins.
+		 - ${user.home}/.build.properties : Allows you to specify global properties
+			 that are to be shared across all Ant projects.  This file is hidden by
+			 unix file standard.
+		 - ${user.home}/.build.properties : Allows you to specify global properties
+			 that are to be shared across all Ant projects.
+
+		 When the same property is specified across the different properties file,
+		 the following precendence order applies - ${base.dir}/bulid.properties ->
+		 ../build.properties -> ${user.home}/.build.properties ->
+		 ${user.home}/build.properties.
+
+-->
+
+<project name="JUnitPlugin" default="dist" basedir=".">
+
+
+
+	<!-- {{{ emulate propertycopy -->
+	<macrodef name="propertycopy">
+		<attribute name="name"/>
+		<attribute name="from"/>
+		<sequential>
+		<property name="@{name}" value="${@{from}}"/>
+		</sequential>
+	</macrodef><!-- }}} -->
+
+	<!-- {{{ Properties -->
+	<property file="JUnitPlugin.props"/>
+	<property file="build.properties"/>
+	<property file="../build.properties"/>
+	<property file="${user.home}/.build.properties"/>
+	<property file="${user.home}/build.properties"/>
+
+	<!-- You should set this property below in your ../build.properties to
+	     the location of the jedit's "build-support/trunk" project
+	     checked out from jEdit's SVN repository -->
+    <property name="build.support" value="../build-support" />
+    <property name="docs-proc.target" value="xsltproc"/>
+    <property name="user-doc.xml" location="users-guide.xml" />
+    <property name="user-doc.xsl" location="users-guide.xsl"/>
+    	
+	<!-- this it to avoid hardcoding the version in the user manual,
+	     since it's too easily forgotten -->
+	<property name="plugin.class" value="junit.JUnitPlugin" />
+	<propertycopy  name="plugin.version" from="plugin.${plugin.class}.version"/>
+
+	<echo>plugin version  = ${plugin.version}</echo>
+	<!-- }}} -->
+
+	
+    	<import file="${build.support}/plugin-build.xml" />
+	
+	<!-- {{{ Patterns -->
+	<!--
+		Put patterns here that should be included in the plugin jar from
+		the source directory.
+	-->
+
+    <selector id="extraFiles">
+        <and>
+            <or>
+								<filename name="dockables.xml"/>
+								<filename name="actions.xml"/>
+								<filename name="services.xml"/>
+                <filename name="JUnitPlugin.props" />
+            </or>
+            <not>
+                <filename name="build/**/*"/>
+             </not>
+        </and>
+    </selector>
+
+    <selector id="packageFiles">
+            <or>
+								<filename name="docs/**/*.*"/>
+								<filename name="**/*.properties"/>
+								<filename name="**/*.props"/>
+								<filename name="**/*.gif"/>
+								<filename name="**/*.png"/>
+            </or>
+    </selector>
+
+
+	<!-- }}} -->
+
+	<!-- {{{ Paths -->
+	<path id="project.class.path">
+		<pathelement location="${jedit.install.dir}/jedit.jar"/>
+		<pathelement location="${jedit.plugins.dir}/CommonControls.jar"/>
+		<pathelement location="${jedit.plugins.dir}/ProjectViewer.jar"/>
+		<pathelement location="${basedir}/lib/junit.jar"/>
+		<pathelement location="."/>
+	</path>
+	<!-- }}} -->
+
+	<!-- {{{ Targets -->
+
+	<!-- {{{ 'build.prepare' target: install junit -->
+	<target name="build.prepare">
+		<copy todir="${install.dir}">
+			<fileset dir="${basedir}/lib" includes="*.jar" />
+		</copy>
+	</target>
+					
+	<!-- }}} -->
+	<!-- }}} -->
+
+</project>
