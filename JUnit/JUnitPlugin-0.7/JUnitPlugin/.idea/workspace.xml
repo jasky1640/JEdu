@@ -1,15 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c044a14-d39b-4e33-9b63-58730e03dd92" name="Default Changelist" comment="" />
+    <list default="true" id="2c044a14-d39b-4e33-9b63-58730e03dd92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit/jeditui/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit/jeditui/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/JEditReloadingTestSuiteLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/JEditReloadingTestSuiteLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/JEditTestCaseClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/JEditTestCaseClassLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/JUnitPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/JUnitPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/PluginTestCollector$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/PluginTestCollector$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/PluginTestCollector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/PluginTestCollector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/CounterPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/CounterPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/DefaultFailureDetailView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/DefaultFailureDetailView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/DetailedResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/DetailedResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/FailureRunView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/FailureRunView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/FailureRunView$FailureListCellRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/FailureRunView$FailureListCellRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/FailureRunView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/FailureRunView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitOptionPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitOptionPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/ProgressBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/ProgressBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/StatusLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/StatusLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestHierarchyRunView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestHierarchyRunView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestHierarchyRunView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestHierarchyRunView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunViewHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunViewHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunViewHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunViewHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector$TestCellRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector$TestCellRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSuitePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSuitePanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSuitePanel$RunListenerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSuitePanel$RunListenerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSuitePanel$TestTreeCellRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSuitePanel$TestTreeCellRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSuitePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestSuitePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestTreeModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestTreeModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/JUnitOptionPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/JUnitOptionPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/OptionsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/OptionsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/PluginOptionsPane$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/PluginOptionsPane$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/PluginOptionsPane$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/PluginOptionsPane$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/PluginOptionsPane$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/PluginOptionsPane$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/PluginOptionsPane$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/PluginOptionsPane$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/PluginOptionsPane$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/PluginOptionsPane$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/PluginOptionsPane$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/PluginOptionsPane$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/PluginOptionsPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/PluginOptionsPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/ProjectOptionsPanel$PathElementTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/ProjectOptionsPanel$PathElementTableModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/ProjectOptionsPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/options/ProjectOptionsPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/JUnitPlugin/DeadLockTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/JUnitPlugin/DeadLockTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/JUnitPlugin/DeadLockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/JUnitPlugin/DeadLockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/JUnitPlugin/JUnit3EmptyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/JUnitPlugin/JUnit3EmptyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/JUnitPlugin/JUnit3Suite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/JUnitPlugin/JUnit3Suite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/JUnitPlugin/JUnit3Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/JUnitPlugin/JUnit3Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/JUnitPlugin/JUnit4Suite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/JUnitPlugin/JUnit4Suite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/JUnitPlugin/JUnit4Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/JUnitPlugin/JUnit4Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/JUnitPlugin/NotATest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/JUnitPlugin/NotATest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/JUnitPlugin/SpinningTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/JUnitPlugin/SpinningTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/junit/jeditui/TestRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1843">
+              <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/junit/jeditui/DefaultFailureDetailView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>loading</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\Jasky Yang\Desktop\Jasky Yang Folder\2019Fall\EECS 395\EECS395_JEdu\JUnit\JUnitPlugin-0.7\JUnitPlugin\junit</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/junit/jeditui/TestRunner.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -53,8 +171,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/ProjectViewer.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -86,6 +206,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -93,11 +214,12 @@
       <window_info id="DB Browser" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info active="true" anchor="bottom" id="Messages" sideWeight="0.4966443" visible="true" weight="0.27882037" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5033557" side_tool="true" visible="true" weight="0.27882037" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -116,6 +238,25 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/junit/jeditui/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junit/jeditui/DefaultFailureDetailView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
@@ -132,6 +273,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -154,6 +296,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
