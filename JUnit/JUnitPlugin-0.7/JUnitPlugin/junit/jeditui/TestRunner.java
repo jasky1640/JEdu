@@ -111,10 +111,12 @@ public class TestRunner extends RunListener implements TestRunContext{
                         dockable.showInfo("Hellllllllllllllllo");
 
                         final String suiteName = dockable.getCurrentTest();
-                        try{
+                  
+                        try {
                         	final Runner testSuite = Request.aClass(getLoader().load(suiteName)).getRunner();
 				doRunTest(testSuite);
-                        }catch(ClassNotFoundException e){
+                        } catch(ClassNotFoundException e) {
+                                dockable.showInfo("Error: No class def found.");
                         	throw new NoClassDefFoundError(suiteName);
                         }
                 }
@@ -289,7 +291,7 @@ public class TestRunner extends RunListener implements TestRunContext{
                 runnerThread = new Thread("TestRunner-Thread") {
                         public void run() {
                                 dockable.startTesting(testSuite.testCount());
-                                try{
+                                try {
                                 	// fireTestRunStarted is not called by the runner, so testRunStarted was not called either in listener
                                 	fRunNotifier.fireTestRunStarted(testSuite.getDescription());
                                 	testSuite.run(fRunNotifier);
@@ -298,7 +300,7 @@ public class TestRunner extends RunListener implements TestRunContext{
 					dockable.showInfo("Finished: " 
 						 + (fResult.getRunTime() / 1000)
 						 + " seconds");
-                                }catch(StoppedByUserException e){
+                                } catch (StoppedByUserException e) {
                                 	// notified like this that the user has stopped the test
                                 	dockable.showStatus("Stopped");
                                 }
