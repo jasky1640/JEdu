@@ -111,6 +111,7 @@ public class TestRunner extends RunListener implements TestRunContext{
                         dockable.showInfo("Hellllllllllllllllo");
 
                         final String suiteName = dockable.getCurrentTest();
+                  
                         try {
                         	final Runner testSuite = Request.aClass(getLoader().load(suiteName)).getRunner();
 				doRunTest(testSuite);

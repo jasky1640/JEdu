@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+
+<!-- JUnitPlugin user's guide -->
+<!-- (C) 2002 - 2003 Calvin Yu -->
+
+<!-- jEdit buffer-local properties: -->
+<!-- :tabSize=2:indentSize=2:noTabs=true: -->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" 
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<book>
+    <title>JUnit plugin user's guide</title>
+  <bookinfo>
+
+   <authorgroup>
+    <author><firstname>Calvin</firstname><surname>Yu</surname></author>
+    <author><firstname>Denis</firstname><surname>Koryavov</surname></author>
+    <author><firstname>Eric</firstname><surname>Le Lay</surname></author>
+   </authorgroup>
+
+  <copyright>
+      <year>2002</year>
+      <year>2003</year>
+      <holder>Calvin Yu</holder>
+    </copyright>
+    <copyright>
+      <year>2006</year>
+      <holder>Denis Koryavov</holder>
+    </copyright>
+    <copyright>
+      <year>2011</year>
+      <holder>Eric Le Lay</holder>
+    </copyright>
+    <legalnotice>
+      <title>Legal Notice</title>
+      <para>
+     Permission is granted to copy, distribute and/or modify this document
+     under the terms of the GNU Free Documentation License, Version 1.1 or
+     any later version published by the Free Software Foundation; with no
+     <quote>Invariant Sections</quote>, <quote>Front-Cover Texts</quote> or
+     <quote>Back-Cover Texts</quote>, each as defined in the license. A copy of
+     the license can be found in the file <filename>COPYING.DOC.txt</filename>
+     included with jEdit.
+    </para>
+    </legalnotice>
+    
+  </bookinfo>
+
+  <chapter id="intro">
+    <title>Introduction</title>
+
+    <para>
+      The <application>JUnitPlugin</application> allows users to run JUnit tests
+      from jEdit.
+      It comes bundled with an unmodified version of junit (currently junit 4.10, including hamcrest).
+      It's source code may be downloaded from https://github.com/KentBeck/junit
+    </para>
+  </chapter>
+
+  <chapter id="window">
+    <title>The JUnit window</title>
+
+    <para>
+      <guimenu>Plugins</guimenu>&gt;<guisubmenu>JUnit</guisubmenu>&gt;<guimenuitem>JUnit</guimenuitem>
+      displays the JUnit window.  This window is floating by default, but can be
+      made to dock into the view in the <guilabel>Docking</guilabel> pane of the
+      <guimenuitem>Global Options</guimenuitem> dialog box.
+    </para>
+  </chapter>
+  <chapter>
+    <title>Writing and running JUnit tests</title>
+    <para>
+    To get started with JUnit you can refer to the <ulink url="docs/cookbook/cookbook.htm">
+    JUnit Cookbook</ulink>.
+    </para>
+    <para>
+    Unit tests are looked for in junit's classpath defined in the current project.
+    Selecting the test to run is done from the JUnit Dockable.
+    Type its class name in the text field or click on the 
+    <guibutton>Select a Test class</guibutton> button
+    and choose it from a list.
+    </para>
+    <para>The UI won't let you select multiple tests at once,
+    so you'd generally want to create test suites.
+    Here is how to do it using jUnit 4 :
+    <programlisting>
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import static org.junit.runners.Suite.*;
+
+@RunWith(Suite.class)
+@SuiteClasses({JUnit4Test.class, AnotherTest.class})
+public class JUnit4Suite{
+// yes, this class is empty
+}
+    </programlisting>
+    </para>
+  </chapter>
+
+  <appendix id="changes">
+    <title>Change log</title>
+    <itemizedlist>
+    
+    <listitem>
+        <para>
+          <emphasis role="bold">Version 0.7</emphasis>
+        requires jEdit 4.4, JDK 1.6, and ProjectViewer 3.4.2</para>
+        <itemizedlist>
+      <listitem><para>Now based on junit-4.10 and includes hamcrest classes
+      (fixes plugin bug #3519395 "JUnit run tests error" - Eric Le Lay).</para></listitem>
+      </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>
+          <emphasis role="bold">Version 0.6</emphasis>
+        requires jEdit 4.3 final+, JDK 1.6, and ProjectViewer 3.0.1+</para>
+        <itemizedlist>
+      <listitem><para>Now based on junit-4.8.2:
+      annotated junit-4 tests can be run (Eric Le Lay).</para></listitem>
+      </itemizedlist>
+      </listitem>
+    
+    <listitem>
+        <para>
+          <emphasis role="bold">Version 0.5</emphasis>
+        requires jEdit 4.2 final+, JDK 1.4, and ProjectViewer 2.1.3.4</para>
+        <itemizedlist>
+      <listitem><para>GUI has been almost completely rewritten (Denis Koryavov).</para></listitem>
+      <listitem><para>The opportunity to adjust and use the filtering of stack trace has been added (Denis Koryavov).</para></listitem>
+      <listitem><para>Set JUnit Classpath jumps you straight to the proper PV Option pane (Alan Ezust). </para></listitem>
+      <listitem><para>File Dialog remembers previous directory, and pops up in the right location now (Alan Ezust). </para></listitem>
+      </itemizedlist>
+      </listitem>
+    
+      <listitem>
+        <para>
+          <emphasis role="bold">Version 0.4</emphasis>
+        requires jEdit 4.2 final+, JDK 1.4, and ProjectViewer 2.1.3.2</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>The possibility of customizing the project-specific options has been added.</para>
+          </listitem>
+        </itemizedlist>
+        <itemizedlist>
+          <listitem>
+            <para>The dependency on the CommonControls plugin has been removed.</para>
+          </listitem>
+        </itemizedlist>
+        <itemizedlist>
+          <listitem>
+            <para>Updated junit.jar.</para>
+          </listitem>
+          </itemizedlist>
+          <itemizedlist>
+          <listitem>
+            <para>Improved/updated documentation.</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>
+          <emphasis role="bold">Version 0.2</emphasis>
+        requires jEdit 4.0 and CommonControls 0.4</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Changed all text from 'jUnit' to 'JUnit'.</para>
+          </listitem>
+        </itemizedlist>
+        <itemizedlist>
+          <listitem>
+            <para>Progress bar is now displayed at all times.</para>
+          </listitem>
+        </itemizedlist>
+        <itemizedlist>
+          <listitem>
+            <para>Added stop button.</para>
+          </listitem>
+        </itemizedlist>
+        <itemizedlist>
+          <listitem>
+            <para>Plugin fails more gracefully when a NoClassDefFoundError is
+          encountered while running a test.  Thanks to Peter Wilkins for the debugging
+          help.</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>
+          <emphasis role="bold">Version 0.1</emphasis>
+        requires jEdit 4.0 and CommonControls 0.4</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>Initial release. Contributed by Andre Kaplan, prepared
+          for release by Calvin Yu
+          </para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+  </appendix>
+</book>
