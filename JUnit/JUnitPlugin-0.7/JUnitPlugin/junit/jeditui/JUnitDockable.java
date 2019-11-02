@@ -121,6 +121,9 @@ class JUnitDockable extends JPanel {
                 box.add(animationPane);
                 
                 box.add(toggleViewsCheckBox = createToggleViewsCheckBox());
+
+                box.add(browseButton = createBrowseButton());
+                box.add(classPathButton = createSetClassPathButton());
                 box.add(runButton = createRunButton());
                 box.add(stopButton = createStopButton());
                 box.add(Box.createHorizontalStrut(5));
@@ -128,9 +131,6 @@ class JUnitDockable extends JPanel {
                 box.add(prevButton = createPrevButton());
                 box.add(nextButton = createNextButton());
                 box.add(Box.createHorizontalStrut(5));
-                
-                box.add(browseButton = createBrowseButton());
-                box.add(classPathButton = createSetClassPathButton());
                 
                 counter = createCounterPanel();
                 
