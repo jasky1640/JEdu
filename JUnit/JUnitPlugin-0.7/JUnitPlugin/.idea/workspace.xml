@@ -4,7 +4,8 @@
     <list default="true" id="2c044a14-d39b-4e33-9b63-58730e03dd92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit/jeditui/JUnitDockable.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit/jeditui/JUnitDockable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +68,17 @@
       <updated>1572302471805</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

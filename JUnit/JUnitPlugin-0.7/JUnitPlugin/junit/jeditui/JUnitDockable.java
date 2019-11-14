@@ -99,38 +99,38 @@ class JUnitDockable extends JPanel {
                 currentTest = createCurrentTestField();
                 
                 Box box = new Box(BoxLayout.X_AXIS);
-                animationLabel = new JLabel();
-                animationLabel.setBorder(new EmptyBorder(2,3,2,3));
-                Toolkit toolkit = getToolkit();
-
-                animation = new AnimatedIcon(
-                        toolkit.getImage(getClass().getResource("/junit/jeditui/icons/Blank.png")),
-                        new Image[] {
-                                toolkit.getImage(getClass().getResource("/junit/jeditui/icons/Active1.png")),
-                                toolkit.getImage(getClass().getResource("/junit/jeditui/icons/Active2.png")),
-                                toolkit.getImage(getClass().getResource("/junit/jeditui/icons/Active3.png")),
-                                toolkit.getImage(getClass().getResource("/junit/jeditui/icons/Active4.png"))
-                        },10,animationLabel
-                );
-                animationLabel.setIcon(animation);
-                animationLabel.setVisible(false);
-                animation.stop();
-                JPanel animationPane = new JPanel(new BorderLayout());
-                animationPane.setPreferredSize(new Dimension(24,24));
-                animationPane.add(animationLabel, BorderLayout.CENTER);
-                box.add(animationPane);
+                box.add(new JTextArea("Enter a text Class"));
+//                animationLabel = new JLabel();
+//                animationLabel.setBorder(new EmptyBorder(2,3,2,3));
+//                Toolkit toolkit = getToolkit();
+//
+//                animation = new AnimatedIcon(
+//                        toolkit.getImage(getClass().getResource("/junit/jeditui/icons/Blank.png")),
+//                        new Image[] {
+//                                toolkit.getImage(getClass().getResource("/junit/jeditui/icons/Active1.png")),
+//                                toolkit.getImage(getClass().getResource("/junit/jeditui/icons/Active2.png")),
+//                                toolkit.getImage(getClass().getResource("/junit/jeditui/icons/Active3.png")),
+//                                toolkit.getImage(getClass().getResource("/junit/jeditui/icons/Active4.png"))
+//                        },10,animationLabel
+//                );
+//                animationLabel.setIcon(animation);
+//                animationLabel.setVisible(false);
+//                animation.stop();
+//                JPanel animationPane = new JPanel(new BorderLayout());
+//                animationPane.setPreferredSize(new Dimension(24,24));
+//                animationPane.add(animationLabel, BorderLayout.CENTER);
+                //box.add(animationPane);
                 
-                box.add(toggleViewsCheckBox = createToggleViewsCheckBox());
-
-                box.add(browseButton = createBrowseButton());
-                box.add(classPathButton = createSetClassPathButton());
-                box.add(runButton = createRunButton());
-                box.add(stopButton = createStopButton());
-                box.add(Box.createHorizontalStrut(5));
+                //box.add(toggleViewsCheckBox = createToggleViewsCheckBox());
+                //box.add(browseButton = createBrowseButton());
+                //box.add(classPathButton = createSetClassPathButton());
+                //box.add(runButton = createRunButton());
+                // box.add(stopButton = createStopButton());
+                //box.add(Box.createHorizontalStrut(5));
                 
-                box.add(prevButton = createPrevButton());
-                box.add(nextButton = createNextButton());
-                box.add(Box.createHorizontalStrut(5));
+                //box.add(prevButton = createPrevButton());
+                //box.add(nextButton = createNextButton());
+                //box.add(Box.createHorizontalStrut(5));
                 
                 counter = createCounterPanel();
                 
@@ -146,7 +146,7 @@ class JUnitDockable extends JPanel {
                 });
                 traceBox.add(filterCheckBox);
                 traceBox.add(Box.createGlue());
-                
+
                 failureDetailView = createFailureDetailView();
                 
                 JPanel tracePanel = new JPanel(new BorderLayout());
