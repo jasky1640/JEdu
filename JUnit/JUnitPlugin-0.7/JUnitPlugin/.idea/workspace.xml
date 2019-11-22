@@ -4,7 +4,19 @@
     <list default="true" id="2c044a14-d39b-4e33-9b63-58730e03dd92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit/jeditui/JUnitDockable.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit/jeditui/JUnitDockable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,6 +43,7 @@
       </list>
     </option>
   </component>
+  <component name="ProjectId" id="1TfRTP7OBHtcMjEDj244y6CplHp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -39,7 +52,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/ProjectViewer.jar!/" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -74,7 +87,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
