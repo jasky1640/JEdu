@@ -81,7 +81,8 @@ class JUnitDockable extends JPanel {
         private RolloverButton browseButton;
         private RolloverButton chooseFileButton;
         private RolloverButton classPathButton;
-        private JTextField folder;
+        private RolloverButton browserpathButton;
+        //private JTextField folder;
 
         private JLabel animationLabel;
         private AnimatedIcon animation;
@@ -89,6 +90,8 @@ class JUnitDockable extends JPanel {
         private JCheckBox toggleViewsCheckBox;
         private JCheckBox filterCheckBox;
         private JPanel testRunViewsPanel;
+
+        private String directoryPath;
 
         /**
          * Views associated with testRunViews.
@@ -123,20 +126,21 @@ class JUnitDockable extends JPanel {
                 animationPane.add(animationLabel, BorderLayout.CENTER);
                 box.add(animationPane);
 
-                folder = new JTextField("Enter A folder");
-                box.add(folder);
+               // folder = new JTextField("Enter A folder");
+                //box.add(folder);
 
                 box.add(toggleViewsCheckBox = createToggleViewsCheckBox());
 
-                box.add(chooseFileButton = createFileChooserButton());
+                //box.add(chooseFileButton = createFileChooserButton());
+                box.add(browserpathButton = createBrowsePathButton());
                 box.add(browseButton = createBrowseButton());
                 box.add(runButton = createRunButton());
                 box.add(stopButton = createStopButton());
                 box.add(Box.createHorizontalStrut(5));
 
-                box.add(prevButton = createPrevButton());
-                box.add(nextButton = createNextButton());
-                box.add(Box.createHorizontalStrut(5));
+                //box.add(prevButton = createPrevButton());
+                //box.add(nextButton = createNextButton());
+                //box.add(Box.createHorizontalStrut(5));
 
                 counter = createCounterPanel();
 
@@ -326,7 +330,8 @@ class JUnitDockable extends JPanel {
 
         //{{{ browseTestClasses method.
         public void browseTestClasses() {
-                setTestPath(folder.getText());
+                //setTestPath(folder.getText());
+                setTestPath(directoryPath);
                 PluginTestCollector collector = runner.createTestCollector();
                 setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
                 TestSelector selector = new TestSelector(runner.getView(), collector.collectTests());
@@ -456,13 +461,17 @@ class JUnitDockable extends JPanel {
         //}}}
 
         //{{{ createBrowseButton method.
-        private RolloverButton createFileChooserButton() {
-                RolloverButton button = createImageButton(RUN_ICON,
-                        jEdit.getProperty("junit.browse-tests.tooltip"));
+        private RolloverButton createBrowsePathButton() {
+                RolloverButton button = createImageButton(OPEN_ICON,
+                        jEdit.getProperty("junit.browsepath-tests.tooltip"));
                 button.addActionListener(new ActionListener() {
                         public void actionPerformed(ActionEvent e) {
-                                // open file explorer
-                                Desktop.getDesktop().open(new File(path));
+                                JFileChooser chooser = new JFileChooser();
+                                chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+                                int returnVal = chooser.showOpenDialog(null);
+                                if(returnVal == JFileChooser.APPROVE_OPTION){
+                                        directoryPath = chooser.getSelectedFile().getAbsolutePath();
+                                }
                         }
                 });
 

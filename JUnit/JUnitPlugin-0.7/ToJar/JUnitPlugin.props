@@ -45,6 +45,7 @@ junit.type-test.tooltip=Type in a Test class to run
 junit.set-class-path.tooltip=Set JUnit classpath
 junit.class-path-dialog.title=JUnit Classpath
 junit.browse-tests.tooltip=Select a Test class
+junit.browsepath-tests.tooltip=Select the directory
 junit.run-tests.tooltip=Run Tests
 junit.show-failures-only.tooltip=Show Failures Only
 junit.next-error.tooltip=Next Failed Test

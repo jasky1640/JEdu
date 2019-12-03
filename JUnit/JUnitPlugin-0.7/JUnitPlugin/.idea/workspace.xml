@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c044a14-d39b-4e33-9b63-58730e03dd92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnitPlugin.props" beforeDir="false" afterPath="$PROJECT_DIR$/JUnitPlugin.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit/jeditui/JUnitDockable.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit/jeditui/JUnitDockable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$10.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$11.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$13.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$4.class" afterDir="false" />
@@ -17,6 +18,26 @@
       <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$7.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/JUnitDockable$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitPlugin/junit/jeditui/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToJar/junit/jeditui/JUnitDockable.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +46,69 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JUnitPlugin" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/junit/jeditui/JUnitDockable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7239">
+              <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5849#5850#0" expanded="true" />
+                <element signature="e#5923#5924#0" expanded="true" />
+                <element signature="e#15541#15542#0" expanded="true" />
+                <element signature="e#15650#15651#0" expanded="true" />
+                <element signature="e#18506#18507#0" expanded="true" />
+                <element signature="e#18585#18586#0" expanded="true" />
+                <element signature="e#19535#19536#0" expanded="true" />
+                <element signature="e#19612#19613#0" expanded="true" />
+                <element signature="e#24003#24004#0" expanded="true" />
+                <element signature="e#24080#24081#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JUnitPlugin.props">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>path</find>
+      <find>RUN_ICON</find>
+      <find>OPEN_ICON</find>
+      <find>createBrowseButton</find>
+      <find>folder</find>
+      <find>Select</find>
+      <find>browseTestClasses</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/JUnitPlugin.props" />
+        <option value="$PROJECT_DIR$/junit/jeditui/JUnitDockable.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -43,9 +125,34 @@
       </list>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1310" />
+    <option name="height" value="1090" />
+  </component>
   <component name="ProjectId" id="1TfRTP7OBHtcMjEDj244y6CplHp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JUnitPlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUnitPlugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -82,14 +189,68 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="DB Browser" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" sideWeight="0.502" side_tool="true" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -97,5 +258,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/junit/jeditui/JUnitDockable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7239">
+          <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5849#5850#0" expanded="true" />
+            <element signature="e#5923#5924#0" expanded="true" />
+            <element signature="e#15541#15542#0" expanded="true" />
+            <element signature="e#15650#15651#0" expanded="true" />
+            <element signature="e#18506#18507#0" expanded="true" />
+            <element signature="e#18585#18586#0" expanded="true" />
+            <element signature="e#19535#19536#0" expanded="true" />
+            <element signature="e#19612#19613#0" expanded="true" />
+            <element signature="e#24003#24004#0" expanded="true" />
+            <element signature="e#24080#24081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JUnitPlugin.props">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
