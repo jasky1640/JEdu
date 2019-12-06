@@ -1,0 +1,26 @@
+# $Id: CalculatorPlugin.props 19441 2011-03-11 16:23:02Z daleanson $
+#-----------------------------------
+# Properties for Calculator Plugin
+#-----------------------------------
+
+plugin.sample.InteractionPanePlugin.activate=defer
+plugin.sample.InteractionPanePlugin.usePluginHome=true
+plugin.sample.InteractionPanePlugin.name=InteractionPane
+plugin.sample.InteractionPanePlugin.author=Yue Shu，Yihe Guo, Shiqing Gao
+plugin.sample.InteractionPanePlugin.version=1.1.0
+plugin.sample.InteractionPanePlugin.docs=description.html
+
+# dependencies
+plugin.sample.InteractionPanePlugin.depend.0=jdk 13
+plugin.sample.InteractionPanePlugin.depend.1=jedit 05.05.99.00
+plugin.sample.InteractionPanePlugin.depend.2=javafx 11.0.2
+
+plugin.sample.InteractionPanePlugin.description=This plugin provides an Interaction Pane for java programming.
+plugin.sample.InteractionPanePlugin.longdescription=description.html
+
+# title for DockableWindowManager
+interactionpane.title=InteractionPane
+interactionpane.label=InteractionPane
+
+# menu settings
+plugin.sample.InteractionPanePlugin.menu-item=InteractionPane

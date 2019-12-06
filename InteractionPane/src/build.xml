@@ -1,0 +1,37 @@
+<?xml version = '1.0' ?>
+
+<project name="InteractionPane"  basedir="." >
+
+    <!--Set the output directories-->
+    <property file="build.properties"/>
+    <property name="jar.name" value="${install.dir}/InteractionPane.jar"/>
+    <property name="build.outdir" value="build"/>
+    <!--<property name="javadoc.outdir" value="javadoc"/>
+    <property name="icons.path" value="debugger/icons"/>
+    <property name="doc.xsl"  value="docs/docbook-wrapper.xsl"/>-->
+
+    <!--Set the classpath-->
+    <path id="classpath">
+        <pathelement location="${jedit.install.dir}/jedit.jar"/>
+        <pathelement location="${java.home}/../lib/tools.jar"/>
+        <pathelement location="${install.dir}/javafx-sdk-11.0.2/lib/javafx.controls.jar"/>
+        <pathelement location="${install.dir}/javafx-sdk-11.0.2/lib/javafx.fxml.jar"/>
+
+    </path>
+
+    <!--Set the source path-->
+    <property name="src.dir" value="src"/>
+    <path id="srcpath">
+        <pathelement location="${src.dir}"/>
+    </path>
+
+
+
+
+    <!--<target name="use" description="Use the Task" depends="jar">
+        <taskdef name="main" classname="sample.Main" classpath="src/sample"/>
+        <main/>
+    </target>-->
+
+
+</project>
